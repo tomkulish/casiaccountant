@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b60c8993-dc36-44fa-b69d-837db9b1f407" name="casiaccountant.com" url="http://casiaccountant.com">
+        <fileTransfer host="casiaccountant.com" port="22" privateKey="C:\Users\me_000\SkyDrive\Documents\Certs\tomkulish_pri_OpenSSH" rootFolder="/home/pkulish" accessType="SFTP" username="pkulish" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

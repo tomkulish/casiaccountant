@@ -5,6 +5,9 @@ if(empty($_POST['name'])  		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
+    echo "Name: " + $_POST['name'] + "\n";
+    echo "Email: " + $_POST['email'] + "\n";
+    echo "Message: " + $_POST['message'] + "\n";
 	echo "No arguments Provided!";
 	return false;
    }
